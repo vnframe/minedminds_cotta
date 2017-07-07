@@ -14,4 +14,7 @@ class TestMMKataArray < Minitest::Test
 		p mm_array
 		assert_equal("mined", mm_array[2])
 	end
+	def test_sixth_number
+		assert_equal("mined", mm_array[5])
+	end
 end
