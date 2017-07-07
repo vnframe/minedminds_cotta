@@ -1,1 +1,0 @@
-# minedminds_cotta
