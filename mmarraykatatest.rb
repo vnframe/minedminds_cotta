@@ -17,4 +17,17 @@ class TestMMKataArray < Minitest::Test
 	def test_sixth_number
 		assert_equal("mined", mm_array[5])
 	end
+	def test_fifth_number
+		assert_equal("minds", mm_array[4])
+	end
+	def test_tenth_number
+		assert_equal("minds", mm_array[9])
+	end
+	def test_fifteenth_number
+		assert_equal("mined minds", mm_array[14])
+	end
+	def test_thirtieth_number
+		assert_equal("mined minds", mm_array[29])
+	end
+		
 end
