@@ -29,5 +29,8 @@ class TestMMKataArray < Minitest::Test
 	def test_thirtieth_number
 		assert_equal("mined minds", mm_array[29])
 	end
+	def test_fiftyfifth_number
+		assert_equal("minds", mm_array[54])
+	end
 		
 end
